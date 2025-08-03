@@ -1,0 +1,186 @@
+@-moz-document url-prefix("https://pikidiary.lol/") {
+body,
+.tab-cont {
+    --prof-section-background: #FFFC;
+    --body-background: #FFF;
+    --prof-border: #CCC;
+}
+
+body.dark,
+body.dark .tab-cont {
+    --prof-section-background: #222C;
+    --body-background: #222;
+    --prof-border: #333;
+}
+
+.tab-cont {
+    background: var(--prof-section-background);
+}
+
+.nametag-left {
+    display:none;
+}
+
+.nametag-right {
+	max-width: 200px;
+	opacity: 1;
+}
+
+.nametag-wrapper:hover .nametag-right {
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+.bio {
+    max-height: none !important;
+}
+
+.bar-cont {
+    top: 8px;
+}
+
+.tab-cont {
+    position: unset;
+}
+
+[data-section-id] a.button,
+.nametag-right,
+.nametag-right:hover,
+.ping,
+.ping:hover {
+    all: unset;
+    text-decoration: underline;
+}
+
+.button {
+    border: 1px solid #CCC;
+}
+
+.button:hover {
+    box-shadow: none;
+}
+
+div.post-box-actions div button.button.button-yellow {
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(236, 236, 236));
+    color: #888;
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid #CCC;
+}
+
+.ping, .nametag-right {
+    color: #3F7BAC;
+}
+
+
+.ping:hover, .nametag-right:hover {
+    cursor: pointer;
+    color: #3F7BAC;
+}
+
+body.dark .nametag-right,
+body.dark .nametag-right:hover,
+body.dark .ping,
+body.dark .ping:hover {
+    color: unset;
+}
+
+.post-name img {
+    display:none;
+}
+
+a {
+    color: inherit;
+}
+
+.button-yellow {
+    background: linear-gradient(180deg, rgba(254, 254, 209, 1), rgba(239, 197, 44, 1));
+    height: 100%;
+    color: #906219;
+    border: #EFCD56 1px solid;
+}
+
+.button-yellow:hover {
+    background: linear-gradient(180deg, rgba(255, 225, 99, 1), rgba(234, 183, 42, 1));
+    color: #5a3c13;
+    border: #e0b21a 1px solid;
+}
+
+
+
+body.dark div.prof-view div.bar-cont div.bar div.info form button.button {
+    box-shadow: none;
+    text-shadow: none;
+    background: linear-gradient(180deg, #444, #333);
+    color: #fff;
+    border-color: #555;
+}
+
+body.dark div.prof-view div.bar-cont div.bar div.info form button.button:hover {
+    box-shadow: none;
+    text-shadow: none;
+    background: linear-gradient(180deg, #333, #252525);
+    color: #fff;
+    border-color: #454545;
+}
+
+div.prof-view div.bar-cont div.bar div.info form button.button {
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(236, 236, 236));
+    height: 100%;
+    color: #888;
+}
+
+div.prof-view div.bar-cont div.bar div.info form button.button:hover,
+div.dropdown-container div label button:hover {
+    background: linear-gradient(180deg, rgb(240, 240, 240), rgb(220, 220, 220));
+    color: #555;
+    border: #888 1px solid;
+}
+
+body div.prof-view div.bar-cont div.bar div.info form button.button-yellow,
+body.dark div.prof-view div.bar-cont div.bar div.info form button.button-yellow {
+    background: linear-gradient(180deg, rgba(254, 254, 209, 1), rgba(239, 197, 44, 1));
+    height: 100%;
+    color: #906219;
+    border: #EFCD56 1px solid;
+}
+
+body div.prof-view div.bar-cont div.bar div.info form button.button-yellow:hover,
+body.dark div.prof-view div.bar-cont div.bar div.info form button.button-yellow:hover {
+    background: linear-gradient(180deg, rgba(255, 225, 99, 1), rgba(234, 183, 42, 1));
+    color: #5a3c13;
+    border: #e0b21a 1px solid;
+}
+
+.button.button-yellow {
+    box-shadow: none;
+    text-shadow: none;
+    border: 1px solid #EFCD56;
+    color: #906219;
+}
+
+.button.button-yellow:hover {
+    border: #e0b21a 1px solid;
+    color: #5a3c13;
+}
+
+.sticky-cont, .sticky-launcher {
+    display: none;
+}
+
+img[src="/img/achi/new.png"] {
+    content: url("https://raw.githubusercontent.com/Nomaakip/pikidiary-bb2theme/refs/heads/main/img/achi/welcome.gif");
+}
+
+img[src="/img/achi/buggy.png"] {
+    content: url("https://raw.githubusercontent.com/Nomaakip/pikidiary-bb2theme/refs/heads/main/img/achi/buggy.png");
+}
+
+img[src="/img/beta/main.gif"] {
+    content: url("https://raw.githubusercontent.com/Nomaakip/pikidiary-bb2theme/refs/heads/main/img/beta/main.gif");
+}
+
+img[src="/img/icons/delete.png"] {
+    content: url("https://raw.githubusercontent.com/Nomaakip/pikidiary-bb2theme/refs/heads/main/img/icons/delete.png");
+}
+}
